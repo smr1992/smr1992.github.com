@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+/*公用*/
+.wrap{
+	overflow: hidden;
+	background-color: #e1e1e1;
+}
+.comWidth{
+	width: 1000px;
+	margin: 0 auto;
+}
+.headerBar{
+	overflow: hidden;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+/*topBar*/
+.topbar{
+	height: 31px;
+	background-color: #F7F7F7;
+	line-height: 31px;
+}
+.leftArea{
+	float: left;
+}
+.rightArea{
+	float: right;
+}
+.collection{
+	background: url(../images/icon/col16.png) no-repeat;
+	padding-left: 20px;font-weight: bold;
+}
+.topbar a:hover,.topbar a:active{
+	color:red;
+}
+
+/*logoBar*/
+.logoBar{
+	overflow: hidden;
+	height: 85px;
+	background-color: #1D7AD9;
+}
+.logo{
+	padding:5px 10px; 
+}
+.search_box{
+	width: 430px;
+	padding:25px 10px; 
+	padding-left: 180px;
+}
+.search_text{
+	width: 360px;
+	height: 35px;
+	background-color: #FFF;
+	line-height: 35px\9;
+}
+.search_btn{
+	cursor: pointer;
+	width: 70px;
+	height: 35px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	background-color: #FFB90F;
+	color:#FFF;
+}
+.search_btn:hover,.search_btn:active{
+	background-color:#FFD700; 
+}
+.shopCar{
+	width: 145px;
+	height: 35px;
+	margin:25px 10px; 
+	margin-right: 50px;
+	background-color: #FFB90F;
+}
+.shopText{
+	cursor: pointer;
+	height: 100%;
+	width: 53px;
+	border-right: 2px solid #FFA07A;
+	padding-left: 45px;	
+	line-height: 35px;
+	background: url(../images/shop25px.png) no-repeat 5px;
+}
+.shopText:hover,.shopText:active{
+	background-color:#FFD700;
+}
+.shopText a{
+	display: inline-block;
+	font-size: 15px;
+	color:#FFF;
+	font-family: "微软雅黑";
+}
+.shopNum{
+	cursor: pointer;
+	width: 43px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	color:#FFF;
+	font-family: "微软雅黑";
+	border-left: 2px solid #FFD700;
+	text-indent: 25px;
+	background: url(../images/箭头下.png) no-repeat 10px;
+}
+.shopNum:hover,.shopNum:active{
+	background-color:#FFD700;
+}
+/*navBox*/
+.navBox{
+	height: 35px;
+	background-color: #1369C0;
+	color: #FFF;
+	
+}
+.shopClass{
+	width: 190px;
+	position: relative;
+}
+.shopClass h3{
+	font-size: 15px;
+	text-indent: 40px;
+	background-color:#0d569f;
+	line-height: 35px;
+}
+.shopClass i{
+	display: inline-block;
+	height: 12px;
+	width: 15px;
+	overflow: hidden;
+    background: url(../images/down.png) no-repeat;
+    margin-left: 10px;
+}
+.nav{
+	float: right;
+	width: 810px;
+	font-size: 16px;
+}
+.nav li{
+	float: right;
+	width: 135px;
+	text-align: center;
+}
+.nav li a{
+	display:inline-block;
+	color: #FFF;
+	font-family: "微软雅黑";
+	line-height: 35px;
+}
+.nav li:hover,.nav li:active{
+    background-color: #1E90FF;
+}
+/*商品列表未激活*/
+.shopClass_item{
+	overflow: hidden;
+	background-color: #1D7AD9;
+	padding:14px 10px; 
+	border-top:1px solid #499cf0;
+	border-bottom: 1px solid #0e4c8b;
+}
+.shopClass_item .b{
+	    display: inline-block;
+		font-family: "微软雅黑";
+		font-size: 14px;
+		font-weight: bold;
+}
+.shopClass_item a{
+	        display: inline-block;
+			color:#FFF;
+			padding:0 5px; 
+			border-radius:5px;
+}
+.shopClass_item dt{
+	height: 24px;
+}
+.shopClass_item a:hover,.shopClass_item a:active{
+	background-color:#0d569f ;
+	text-decoration:underline;
+}
+/*商品列表激活*/
+.shopClass_item_active{
+	background-color: #FFF;
+	color: #000;
+	padding: 14px 10px;
+	border-top:1px solid #FFF;
+	border-bottom: 1px solid #CFCFCF;
+}
+.shopClass_item_active .b{
+        display: inline-block;
+		font-family: "微软雅黑";
+		font-size: 14px;
+		font-weight: bold;
+}
+.shopClass_item_active a{
+	        display: inline-block;
+			color:#000;
+			padding:0 5px; 
+			border-radius:5px;
+}
+.shopClass_item_active dt{
+	height: 24px;
+}
+.shopClass_item_active a:hover,.shopClass_item_active a:active{
+	background-color:#0d569f ;
+	text-decoration:underline;
+	color:#FFF;
+}
+/*广告区*/
+.ad{
+	width: 810px;
+	min-height: 410px;
+	background-color: #b8b8b8;
+}
+/*热销商品*/
+.cla{
+	overflow: hidden;
+	max-height: 800px;
+}
+.cla_title{
+	background-color: #CCC;
+	height: 85px;
+}
+.cla_text{
+	display: inline-block;
+	font-family: "微软雅黑";
+	font-size: 18px;
+	margin: 55px 0 0 20px;
+}
+
+/*弹出商品列表*/
+.shopClass_list{
+	width: 578px;
+	height: 378px;
+	border: 1px solid #CCC;
+	border-left: 1px solid #FFF;
+	position: absolute;
+	left: 190px;
+	top: 35px;
+	background: #FFF;
+	z-index: 2;
+}
+.shopClass_cont{
+	padding: 0 20px;
+}
+.shopList_item{
+	padding: 12px 0;
+	border-bottom: 1px solid #CCC;
+}
+.shopList_item dt{
+	color: #4B87D9; font-weight: bold;
+	height: 14px;
+	line-height: 24px;
+}
+.shopList_item dd{
+	padding-left: 68px;
+	margin-top: -14px;
+	line-height: 24px;
+}
+.shopList_item dd a{
+	margin-right: 12px;
+}
+.shopList_links a{
+	color:#FFF;
+	background-color: #2785E6;
+	height: 26px;
+	line-height: 26px;
+	font-size:14px;
+	display: inline-block;
+	padding: 0 14px 0 8px;
+	margin-top: 18px;
+	margin-right: 10px;
+}
+.shopList_links a span{
+padding-left: 7px;
+}
+ /*猫先生表情包*/
+ .banner_bar{
+ 	overflow: hidden;
+ }
+.banner_left{
+	float: left;
+	width: 190px;
+	min-height: 300px;
+	_height:300px;
+	background-color: #1D7AD9;
+}
+.banner_left img{
+	margin: 40px 31px;
+}
+.banner_left a{
+	display: inline-block;
+	font-size:18px;
+	font-family: "微软雅黑";
+	color: #FFF;
+	margin:25px 30px; 
+    padding: 0 10px;
+	border-radius:5px;
+}
+.banner_left a:hover,.banner_left a:active{
+	background-color: #0d569f;
+	text-decoration: underline;
+}
+.cat li{
+	float: left;
+	width: 160px;
+	height: 300px;
+	padding:2px 1px; 
+	background-color: #ececec;
+    border-radius:10px;
+}
+.cat .p{
+	display: block;
+	width: 154px;
+	height: 202px;
+	border: 2px solid #818181;
+	border-radius:10px;
+}
+.cat img{
+	display: block;
+	margin: 25px auto;
+}
+.cat span{
+	display: block;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+.cat .m{
+	display: block;
+	width: 154px;
+	height: 88px;
+	color:#000;
+	line-height: 85px;
+    text-align: center;
+    border: 2px solid #818181 ;
+	border-radius:10px;
+	margin: 2px 0;
+}
+.cat a:hover,.cat a:active{
+	background-color: #d4d4d4;
+}
+/*底部版权区*/
+.bottom_bar{
+    overflow: hidden;
+	height: 80px;
+	background-color: #CCC;
+}
+.ban{
+	padding: 10px 0;
+	width: 600px;
+	margin: 0 auto;
+}
+.ban_a{
+	margin: 0 auto;
+	color: #000;
+	display:block;
+}
