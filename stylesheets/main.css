@@ -1,6 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 /*公用*/
+.{
+	margin: 0;
+	padding:0;
+}
 .wrap{
 	overflow: hidden;
 	background-color: #e1e1e1;
@@ -40,6 +44,7 @@
 
 /*logoBar*/
 .logoBar{
+	width: 100%;
 	overflow: hidden;
 	height: 85px;
 	background-color: #1D7AD9;
@@ -159,6 +164,7 @@
 	overflow: hidden;
 	background-color: #1D7AD9;
 	padding:14px 10px; 
+	height: 54.4px;
 	border-top:1px solid #499cf0;
 	border-bottom: 1px solid #0e4c8b;
 }
@@ -175,7 +181,7 @@
 			border-radius:5px;
 }
 .shopClass_item dt{
-	height: 24px;
+	height: 28px\9;
 }
 .shopClass_item a:hover,.shopClass_item a:active{
 	background-color:#0d569f ;
